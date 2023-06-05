@@ -1,0 +1,6 @@
+org\rsm\task\db\MySqlConnection.class
+org\rsm\task\db\MySqlDatabase.class
+org\rsm\task\db\pojo\EmployeeData.class
+org\rsm\task\db\adapters\EmployeeAdapter.class
+org\rsm\task\Main.class
+org\rsm\task\processors\EmployeeProcessor.class
