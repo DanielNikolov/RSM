@@ -14,6 +14,9 @@ public class Main {
             threadPoolExecutor.execute(new DownloadThread());
             threadPoolExecutor.execute(new UploadThread());
         }
+        while (threadPoolExecutor.getActiveCount() > 0) {
+
+        }
 
         OperationsContainer.printReport();
     }
